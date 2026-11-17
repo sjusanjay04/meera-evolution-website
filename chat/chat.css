@@ -1,0 +1,36 @@
+.chat-page {
+  padding-block: clamp(48px, 10vw, 120px);
+  min-height: 62vh;
+}
+
+.chat-card {
+  max-width: 720px;
+  min-height: auto;
+  margin-inline: auto;
+  padding: clamp(24px, 6vw, 56px);
+}
+
+.chat-card h1 {
+  margin: 0;
+  font-size: clamp(36px, 7vw, 64px);
+  letter-spacing: -.04em;
+}
+
+.chat-card .btn:not([hidden]) {
+  display: inline-block;
+}
+
+.chat-card details {
+  margin-top: 28px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.chat-card summary {
+  color: var(--accent);
+  cursor: pointer;
+}
+
+.nav-links a[aria-current="page"] {
+  color: var(--accent);
+}
